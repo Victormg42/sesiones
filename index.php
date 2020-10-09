@@ -39,10 +39,10 @@ div {
 <div>
   <form action="services/login.proc.php" method="POST">
     <label for="email">Email</label>
-    <input type="text" id="femail" name="email" placeholder="Your email..">
+    <input type="text" id="email" name="email" placeholder="Your email.." required>
 
     <label for="passwd">Password</label><br>
-    <input type="password" id="passwd" name="passwd" placeholder="Your passwd..">
+    <input type="password" id="passwd" name="passwd" placeholder="Your passwd.." required>
   
     <input type="submit" value="Submit">
   </form>
